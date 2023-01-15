@@ -1,12 +1,12 @@
-body{
+body {
   background-color: rgb(7, 3, 243);
-  color:white;
+  color: white;
   text-align: center;
   font-size: 5rem;
   font-weight: bold;
 }
 
-button{
+button {
   padding: 5px 20px;
   border: 3px solid rgb(248, 248, 247);
   border-radius: 10px;
@@ -14,5 +14,30 @@ button{
   color: white;
   margin-right: 10px;
   font-size: 3rem;
-  width:80px;
+  width: 100px;
 }
+
+App-button {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+  body {
+    font-size: 2rem;
+  }
+
+  button {
+    padding: 2px 8px;
+    border: 1px solid rgb(248, 248, 247);
+    margin-right: 5px;
+    font-size: 2rem;
+    width: 80px;
+  }
+
+
+
+
+}
+
+
+/* mobile responsive ok */
